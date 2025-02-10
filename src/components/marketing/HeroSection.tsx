@@ -40,7 +40,7 @@ const HeroSection = ({
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
   return (
-    <div className="relative w-full h-[800px] overflow-hidden bg-gray-900">
+    <div className="relative w-full h-[800px] overflow-hidden bg-gray-900 pt-20">
       {/* Parallax Background */}
       <motion.div style={{ y }} className="absolute inset-0 w-full h-full">
         <div
